@@ -1,0 +1,76 @@
+/* Main application styles */
+.root {
+    -fx-background-color: #1E1E1E;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* TableView styles */
+.table-view {
+    -fx-background-color: #2A2A2A;
+    -fx-table-cell-border-color: transparent;
+    -fx-border-color: #404040;
+}
+
+.table-view .column-header {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-padding: 8px;
+}
+
+/* Filter components styles */
+.text-field {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #808080;
+}
+
+.combo-box {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+}
+
+.slider {
+    -fx-show-tick-labels: true;
+    -fx-show-tick-marks: true;
+}
+
+.slider .track {
+    -fx-background-color: #404040;
+}
+
+.slider .thumb {
+    -fx-background-color: #4CAF50;
+}
+
+/* Tab styles */
+.tab-pane .tab-header-area .tab {
+    -fx-background-color: #2A2A2A;
+    -fx-text-fill: white;
+}
+
+.tab-pane .tab-header-area .tab:selected {
+    -fx-background-color: #4CAF50;
+}
+
+/* Spinner styles */
+.spinner {
+    -fx-background-color: #3C3C3C;
+    -fx-text-fill: white;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: #4CAF50;
+}
